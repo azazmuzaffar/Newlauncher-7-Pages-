@@ -1,0 +1,276 @@
+/* Our Mision Text Area */
+.our-mission-text-area {
+  &.container {
+    max-width: 644px;
+    text-align: center;
+    @media only screen and (max-width: 767.98px) {
+      max-width: 544px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      max-width: 100%;
+      padding: 0 16px;
+    }
+    h1,
+    p {
+      font-style: normal;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      color: #111828;
+      margin-bottom: 40px;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 0.03em;
+      color: #6b7380;
+      margin-bottom: 16px;
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+      @media only screen and (max-width: 767.98px) {
+        font-size: 14px;
+        margin-bottom: 0px;
+        display: inline;
+      }
+    }
+  }
+}
+/* line */
+.-line-area {
+  &.container {
+    height: 1px;
+    max-width: 1060px;
+    background: #e6e7eb;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    @media only screen and (max-width: 1200px) {
+      max-width: 960px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      max-width: 724px;
+      display: block;
+    }
+    @media only screen and (max-width: 767.98px) {
+      max-width: 544px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      max-width: calc(100% - 32px);
+    }
+  }
+}
+/* Contact Details */
+.contact-details-area {
+  &.container {
+    max-width: 1105px;
+    text-align: center;
+    @media only screen and (max-width: 767.98px) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    h2,
+    p {
+      font-style: normal;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #111828;
+      margin-bottom: 24px;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 32px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+      text-align: center;
+      color: #6b7380;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 14px;
+      }
+    }
+    .row {
+      margin-top: 104px;
+      margin-bottom: 104px;
+      .col-md-6 {
+        @media only screen and (max-width: 991.98px) {
+          margin-bottom: 35px;
+        }
+        @media only screen and (max-width: 767.98px) {
+          margin-bottom: 0px;
+        }
+      }
+      @media only screen and (max-width: 767.98px) {
+        margin-top: 75px;
+        margin-bottom: 0px;
+        .col-lg-4 {
+          margin-bottom: 60px;
+          &:last-of-type {
+            margin-bottom: 35px;
+          }
+        }
+      }
+      svg {
+        margin-bottom: 8px;
+      }
+      h4,
+      p,
+      a,
+      span {
+        font-style: normal;
+      }
+      h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #111828;
+        margin-bottom: 4px;
+      }
+      P {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #6b7380;
+        margin-bottom: 16px;
+      }
+      a,
+      span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #9255a2;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/* Contact From Area */
+.contact-form-area {
+  &.container {
+    max-width: 644px;
+    @media only screen and (max-width: 767.98px) {
+      max-width: 520px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      max-width: 100%;
+      padding: 0 28px;
+    }
+    h2,
+    p {
+      font-style: normal;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #111828;
+      margin-bottom: 24px;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 32px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+      text-align: center;
+      color: #6b7380;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 14px;
+      }
+    }
+    form {
+      margin-top: 64px;
+      @media only screen and (max-width: 767.98px) {
+        margin-top: 40px;
+      }
+      .row {
+        .col-lg-6,
+        .col-lg-12 {
+          margin: 0;
+          padding: 0;
+        }
+        .col-lg-6 {
+          &:first-of-type {
+            padding-right: 8px;
+            @media only screen and (max-width: 767.98px) {
+              padding-right: 0px;
+            }
+          }
+          &:nth-child(2) {
+            padding-left: 8px;
+            @media only screen and (max-width: 767.98px) {
+              padding-left: 0px;
+            }
+          }
+        }
+        input,
+        textarea {
+          width: 100%;
+          margin-bottom: 32px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          color: #6b7380;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          border: 1px solid #d0d5dd;
+          padding: 10px 14px;
+          @media only screen and (max-width: 767.98px) {
+            margin-bottom: 12px;
+          }
+        }
+        input[type="submit"] {
+          margin-bottom: 0px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 120%;
+          color: #ffffff;
+          padding: 12.5px 20px 14.5px 20px;
+          background: #743393;
+          transition: 0.3s;
+          border: 0px;
+          &:hover {
+            color: #fff;
+            background: #b77bc7;
+            transition: 0.3s;
+          }
+          &:focus {
+            background: #500673;
+          }
+        }
+        textarea {
+          margin-bottom: 40px;
+          @media only screen and (max-width: 767.98px) {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+/* Pre footer image */
+.pre-footer-area {
+  text-align: center;
+}

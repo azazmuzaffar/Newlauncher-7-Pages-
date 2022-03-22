@@ -1,0 +1,101 @@
+.area-404 {
+  &.container {
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1200px) {
+      max-width: 960px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      max-width: 724px;
+      display: block;
+    }
+    @media only screen and (max-width: 767.98px) {
+      max-width: 544px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      max-width: 100%;
+      padding: 0 16px;
+      margin-bottom: 36px;
+    }
+  }
+  .text-area-404 {
+    @media only screen and (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 120%;
+      color: #384152;
+      margin-bottom: 16px;
+    }
+    P {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      color: #6b7380;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 767.98px) {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+    }
+    .actions-404 {
+      a {
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120%;
+        text-decoration: none;
+        padding: 9.5px 27.5px 11.5px 27.5px;
+        border: 1px solid #743393;
+        border-radius: 4px;
+        @media only screen and (max-width: 767.98px) {
+          padding: 9.5px 12.5px 11.5px 13.5px;
+        }
+        &:hover {
+          color: #743393;
+          background: rgba(116, 51, 147, 0.05);
+        }
+        &:focus {
+          background: rgba(116, 51, 147, 0.2);
+        }
+        &:first-of-type {
+          background: #743393;
+          border: 1px solid #743393;
+          margin-right: 8px;
+          color: white;
+          &:hover {
+            color: #fff;
+            background: #b77bc7;
+            border: 1px solid #b77bc7;
+          }
+          &:focus {
+            background: #500673;
+            border: 1px solid #500673;
+          }
+        }
+      }
+    }
+  }
+  .image-404 {
+    margin-left: auto;
+    margin-right: 0;
+    @media only screen and (max-width: 1200px) {
+      img {
+        max-width: 500px;
+      }
+    }
+    @media only screen and (max-width: 991px) {
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
