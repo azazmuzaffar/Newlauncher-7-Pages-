@@ -5163,13 +5163,13 @@ p .custom-badge-group {
 @media only screen and (max-width: 991.98px) {
   .area-404.container {
     max-width: 724px;
-    display: block;
   }
 }
 
 @media only screen and (max-width: 767.98px) {
   .area-404.container {
     max-width: 544px;
+    display: block;
   }
 }
 
@@ -5196,6 +5196,12 @@ p .custom-badge-group {
   margin-bottom: 16px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .area-404 .text-area-404 h1 {
+    text-align: center;
+  }
+}
+
 .area-404 .text-area-404 P {
   font-style: normal;
   font-weight: 400;
@@ -5209,6 +5215,16 @@ p .custom-badge-group {
   .area-404 .text-area-404 P {
     font-size: 14px;
     margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .area-404 .text-area-404 .actions-404 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
   }
 }
 
@@ -5221,7 +5237,7 @@ p .custom-badge-group {
   line-height: 120%;
   text-decoration: none;
   padding: 9.5px 27.5px 11.5px 27.5px;
-  border: 1px solid #743393;
+  border: 2px solid #743393;
   border-radius: 4px;
 }
 
@@ -5242,7 +5258,7 @@ p .custom-badge-group {
 
 .area-404 .text-area-404 .actions-404 a:first-of-type {
   background: #743393;
-  border: 1px solid #743393;
+  border: 2px solid #743393;
   margin-right: 8px;
   color: white;
 }
@@ -5250,12 +5266,12 @@ p .custom-badge-group {
 .area-404 .text-area-404 .actions-404 a:first-of-type:hover {
   color: #fff;
   background: #b77bc7;
-  border: 1px solid #b77bc7;
+  border: 2px solid #b77bc7;
 }
 
 .area-404 .text-area-404 .actions-404 a:first-of-type:focus {
   background: #500673;
-  border: 1px solid #500673;
+  border: 2px solid #500673;
 }
 
 .area-404 .image-404 {
@@ -5269,12 +5285,18 @@ p .custom-badge-group {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991.98px) {
   .area-404 .image-404 {
     text-align: center;
   }
   .area-404 .image-404 img {
-    max-width: 100%;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .area-404 .image-404 img {
+    width: 100%;
   }
 }
 

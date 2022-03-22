@@ -8,10 +8,10 @@
     }
     @media only screen and (max-width: 991.98px) {
       max-width: 724px;
-      display: block;
     }
     @media only screen and (max-width: 767.98px) {
       max-width: 544px;
+      display: block;
     }
     @media only screen and (max-width: 575.98px) {
       max-width: 100%;
@@ -30,6 +30,9 @@
       line-height: 120%;
       color: #384152;
       margin-bottom: 16px;
+      @media only screen and (max-width: 767.98px) {
+        text-align: center;
+      }
     }
     P {
       font-style: normal;
@@ -41,9 +44,14 @@
       @media only screen and (max-width: 767.98px) {
         font-size: 14px;
         margin-bottom: 24px;
+        text-align: center;
       }
     }
     .actions-404 {
+      @media only screen and (max-width: 767.98px) {
+        width: fit-content;
+        margin: 0 auto;
+      }
       a {
         margin: 0;
         padding: 0;
@@ -53,7 +61,7 @@
         line-height: 120%;
         text-decoration: none;
         padding: 9.5px 27.5px 11.5px 27.5px;
-        border: 1px solid #743393;
+        border: 2px solid #743393;
         border-radius: 4px;
         @media only screen and (max-width: 767.98px) {
           padding: 9.5px 12.5px 11.5px 13.5px;
@@ -67,17 +75,17 @@
         }
         &:first-of-type {
           background: #743393;
-          border: 1px solid #743393;
+          border: 2px solid #743393;
           margin-right: 8px;
           color: white;
           &:hover {
             color: #fff;
             background: #b77bc7;
-            border: 1px solid #b77bc7;
+            border: 2px solid #b77bc7;
           }
           &:focus {
             background: #500673;
-            border: 1px solid #500673;
+            border: 2px solid #500673;
           }
         }
       }
@@ -91,10 +99,15 @@
         max-width: 500px;
       }
     }
-    @media only screen and (max-width: 991px) {
+    @media only screen and (max-width: 991.98px) {
       text-align: center;
       img {
-        max-width: 100%;
+        width: 350px;
+      }
+    }
+    @media only screen and (max-width: 767.98px) {
+      img {
+        width: 100%;
       }
     }
   }
