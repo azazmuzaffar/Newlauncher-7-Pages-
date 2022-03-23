@@ -6178,6 +6178,7 @@ p .custom-badge-group {
 @media only screen and (max-width: 767.98px) {
   .about-us-area.container h1 {
     font-size: 32px;
+    margin-bottom: 18px;
   }
 }
 
@@ -6299,17 +6300,13 @@ p .custom-badge-group {
   line-height: 120%;
   color: #111828;
   margin-bottom: 24px;
-}
-
-@media only screen and (max-width: 991.98px) {
-  .our-journey-area.container .journey-image-text-area .journey-text-area h2 {
-    text-align: center;
-  }
+  text-align: center;
 }
 
 @media only screen and (max-width: 767.98px) {
   .our-journey-area.container .journey-image-text-area .journey-text-area h2 {
     font-size: 32px;
+    margin-bottom: 18px;
   }
 }
 
@@ -6320,16 +6317,11 @@ p .custom-badge-group {
   line-height: 140%;
   letter-spacing: 0.03em;
   color: #6b7380;
+  text-align: center;
 }
 
 .our-journey-area.container .journey-image-text-area .journey-text-area p:first-of-type {
   margin-bottom: 32px;
-}
-
-@media only screen and (max-width: 991.98px) {
-  .our-journey-area.container .journey-image-text-area .journey-text-area p {
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -6337,7 +6329,7 @@ p .custom-badge-group {
     font-size: 14px;
   }
   .our-journey-area.container .journey-image-text-area .journey-text-area p:first-of-type {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
 }
 
@@ -6347,7 +6339,10 @@ p .custom-badge-group {
 
 @media only screen and (max-width: 767.98px) {
   .our-journey-area.container .journey-image-text-area .count-wrapper {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
+  }
+  .our-journey-area.container .journey-image-text-area .count-wrapper h3 {
+    font-size: 32px;
   }
 }
 
@@ -6556,6 +6551,7 @@ p .custom-badge-group {
   .our-process-area.container .our-process-text-area h2 {
     font-size: 32px;
     text-align: center;
+    margin-bottom: 18px;
   }
 }
 
@@ -6693,6 +6689,7 @@ p .custom-badge-group {
 @media only screen and (max-width: 767.98px) {
   .contact-details-area.container h2 {
     font-size: 32px;
+    margin-bottom: 18px !important;
   }
 }
 
@@ -6767,6 +6764,18 @@ p .custom-badge-group {
   line-height: 140%;
   color: #743393;
   margin: 0;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .contact-details-area.container .row .tab-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .contact-details-area.container .row .tab-none {
+    display: block;
+  }
 }
 
 /* About Our Mission */
@@ -6863,6 +6872,7 @@ p .custom-badge-group {
   .about-mission-area.container .about-image-text-area .about-text-area h2 {
     font-size: 32px;
     text-align: center;
+    margin-bottom: 18px;
   }
 }
 
@@ -6880,6 +6890,7 @@ p .custom-badge-group {
   .about-mission-area.container .about-image-text-area .about-text-area p {
     font-size: 14px;
     text-align: center;
+    margin-bottom: 30px;
   }
 }
 
