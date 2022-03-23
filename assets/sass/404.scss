@@ -40,7 +40,10 @@
       font-size: 20px;
       line-height: 140%;
       color: #6b7380;
-      margin-bottom: 30px;
+      margin-bottom: 24px;
+      @media only screen and (max-width: 991px) {
+        font-size: 16px;
+      }
       @media only screen and (max-width: 767.98px) {
         font-size: 14px;
         margin-bottom: 24px;
@@ -52,6 +55,7 @@
         width: fit-content;
         margin: 0 auto;
       }
+      display: flex;
       a {
         margin: 0;
         padding: 0;
@@ -60,11 +64,14 @@
         font-size: 14px;
         line-height: 120%;
         text-decoration: none;
-        padding: 9.5px 27.5px 11.5px 27.5px;
+        padding: 10.5px 0px 11.5px 0px;
         border: 2px solid #743393;
+        display: block;
+        text-align: center;
+        width: 150px;
         border-radius: 4px;
         @media only screen and (max-width: 767.98px) {
-          padding: 9.5px 12.5px 11.5px 13.5px;
+          width: 125px;
         }
         &:hover {
           color: #743393;

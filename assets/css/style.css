@@ -5208,7 +5208,13 @@ p .custom-badge-group {
   font-size: 20px;
   line-height: 140%;
   color: #6b7380;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+  .area-404 .text-area-404 P {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -5217,6 +5223,12 @@ p .custom-badge-group {
     margin-bottom: 24px;
     text-align: center;
   }
+}
+
+.area-404 .text-area-404 .actions-404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -5236,14 +5248,17 @@ p .custom-badge-group {
   font-size: 14px;
   line-height: 120%;
   text-decoration: none;
-  padding: 9.5px 27.5px 11.5px 27.5px;
+  padding: 10.5px 0px 11.5px 0px;
   border: 2px solid #743393;
+  display: block;
+  text-align: center;
+  width: 150px;
   border-radius: 4px;
 }
 
 @media only screen and (max-width: 767.98px) {
   .area-404 .text-area-404 .actions-404 a {
-    padding: 9.5px 12.5px 11.5px 13.5px;
+    width: 125px;
   }
 }
 
@@ -5821,7 +5836,7 @@ p .custom-badge-group {
   font-size: 48px;
   line-height: 120%;
   color: #111828;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -5847,8 +5862,6 @@ p .custom-badge-group {
 @media only screen and (max-width: 767.98px) {
   .our-mission-text-area.container p {
     font-size: 14px;
-    margin-bottom: 0px;
-    display: inline;
   }
 }
 
@@ -5912,7 +5925,7 @@ p .custom-badge-group {
   line-height: 120%;
   text-align: center;
   color: #111828;
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -5940,18 +5953,6 @@ p .custom-badge-group {
   margin-bottom: 104px;
 }
 
-@media only screen and (max-width: 991.98px) {
-  .contact-details-area.container .row .col-md-6 {
-    margin-bottom: 35px;
-  }
-}
-
-@media only screen and (max-width: 767.98px) {
-  .contact-details-area.container .row .col-md-6 {
-    margin-bottom: 0px;
-  }
-}
-
 @media only screen and (max-width: 767.98px) {
   .contact-details-area.container .row {
     margin-top: 75px;
@@ -5961,7 +5962,7 @@ p .custom-badge-group {
     margin-bottom: 60px;
   }
   .contact-details-area.container .row .col-lg-4:last-of-type {
-    margin-bottom: 35px;
+    margin-bottom: 0px;
   }
 }
 
