@@ -6373,13 +6373,18 @@ p .custom-badge-group {
   }
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991.98px) {
   .as-featured-area.container {
-    font-size: 32px;
     margin-bottom: 40px;
     background: #f9fafc;
     padding-top: 36px;
-    padding-bottom: 48px;
+    padding-bottom: 48px !important;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .as-featured-area.container {
+    font-size: 32px;
   }
 }
 
@@ -6438,6 +6443,7 @@ p .custom-badge-group {
 @media only screen and (max-width: 991.98px) {
   .as-featured-area.container .brands-area {
     max-width: 724px;
+    margin-bottom: 0px;
     display: block;
   }
 }
@@ -6446,7 +6452,6 @@ p .custom-badge-group {
   .as-featured-area.container .brands-area {
     max-width: 544px;
     margin-top: 24px;
-    margin-bottom: 0px;
   }
 }
 
@@ -6479,12 +6484,24 @@ p .custom-badge-group {
   }
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 767.98px) {
+  .as-featured-area.container .brands-area a {
+    margin-right: 0;
+  }
+  .as-featured-area.container .brands-area a:nth-child(2) {
+    margin: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
   .as-featured-area.container .brands-area {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0px 6px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 370px;
   }
   .as-featured-area.container .brands-area a {
     width: -webkit-fit-content;
@@ -6492,8 +6509,20 @@ p .custom-badge-group {
     width: fit-content;
     margin: 0 auto;
   }
-  .as-featured-area.container .brands-area a:first-of-type {
-    margin-right: 10px;
+  .as-featured-area.container .brands-area a img {
+    height: 30px !important;
+  }
+  .as-featured-area.container .brands-area a:nth-child(1) {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .as-featured-area.container .brands-area a:nth-child(3) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .as-featured-area.container .brands-area a:first-of-type img,
+  .as-featured-area.container .brands-area a:nth-child(2) img {
+    height: 21px !important;
   }
 }
 
@@ -6547,10 +6576,15 @@ p .custom-badge-group {
   margin-bottom: 24px;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .our-process-area.container .our-process-text-area h2 {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 767.98px) {
   .our-process-area.container .our-process-text-area h2 {
     font-size: 32px;
-    text-align: center;
     margin-bottom: 18px;
   }
 }
@@ -6564,11 +6598,17 @@ p .custom-badge-group {
   color: #6b7380;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .our-process-area.container .our-process-text-area p,
+  .our-process-area.container .our-process-text-area span {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 767.98px) {
   .our-process-area.container .our-process-text-area p,
   .our-process-area.container .our-process-text-area span {
     font-size: 14px;
-    text-align: center;
   }
 }
 
@@ -6582,7 +6622,7 @@ p .custom-badge-group {
   }
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991.98px) {
   .our-process-area.container .our-process-text-area span {
     display: block;
     text-align: center;
@@ -6606,6 +6646,7 @@ p .custom-badge-group {
 .our-process-area.container .our-process-text-area .our-process-point p {
   color: #9255a2;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -6868,10 +6909,15 @@ p .custom-badge-group {
   margin-bottom: 24px;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .about-mission-area.container .about-image-text-area .about-text-area h2 {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 767.98px) {
   .about-mission-area.container .about-image-text-area .about-text-area h2 {
     font-size: 32px;
-    text-align: center;
     margin-bottom: 18px;
   }
 }
@@ -6884,6 +6930,12 @@ p .custom-badge-group {
   letter-spacing: 0.03em;
   color: #6b7380;
   margin-bottom: 36px;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .about-mission-area.container .about-image-text-area .about-text-area p {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -6900,7 +6952,7 @@ p .custom-badge-group {
   display: flex;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991.98px) {
   .about-mission-area.container .about-image-text-area .about-text-area .about-mission-actions {
     width: -webkit-fit-content;
     width: -moz-fit-content;
