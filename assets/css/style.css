@@ -6377,7 +6377,7 @@ p .custom-badge-group {
   .as-featured-area.container {
     margin-bottom: 40px;
     background: #f9fafc;
-    padding-top: 36px;
+    padding-top: 42px;
     padding-bottom: 48px !important;
   }
 }
@@ -6444,6 +6444,7 @@ p .custom-badge-group {
   .as-featured-area.container .brands-area {
     max-width: 724px;
     margin-bottom: 0px;
+    margin-top: 36px;
     display: block;
   }
 }
