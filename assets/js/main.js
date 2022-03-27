@@ -436,3 +436,29 @@ $(document).ready(function () {
     }
   });
 });
+
+/* Show pop on form input focus */
+$(".contact-form input").click(function () {
+  $(".-popup-bg-area").addClass("show");
+  /* $("body").css("overflow", "hidden"); */
+});
+$(".contact-form textarea").click(function () {
+  $(".-popup-bg-area").addClass("show");
+  /* $("body").css("overflow", "hidden"); */
+});
+
+/* Show Popup */
+$(".-close-popup").click(function () {
+  $(".-popup-bg-area").removeClass("show");
+  /* $("body").css("overflow", "auto"); */
+});
+
+/* close by clicking anything else */
+$(document).mouseup(function (e) {
+  var container = $(".-popup-message-area");
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    $(".-popup-bg-area").removeClass("show");
+    /* $("body").css("overflow", "auto"); */
+  }
+});
