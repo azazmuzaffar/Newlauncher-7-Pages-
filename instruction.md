@@ -132,7 +132,9 @@ To be the only platform of choice for new launches.
 
 ```
 
-# That's it, Thank you!
+<hr>
+
+# That's All, Thank you!
 
 
 
