@@ -46,6 +46,20 @@ Note: you just need to add the class, it will work work on it's own b/w 768px to
 
 ## Solution: 
 
+Please replace the three paragraphs accordingly.
+
+```html
+<p>We reply to all messages <span class="bl-visible-on-ipad-only"><br></span> within 12 hours.</p>
+```
+
+```html
+<p>Daily appointment from <span class="bl-visible-on-ipad-only"><br></span> 11am to 7pm.</p>
+```
+
+```html
+<p>Possibly, the fastest <span class="bl-visible-on-ipad-only"><br></span> way to reach us.</p>
+```
+
 
 
 
