@@ -51,9 +51,9 @@ Note: you just need to add the class, it will work work on it's own b/w 768px to
 
 ## Solution: 
 
-Please replace the three paragraphs accordingly.
+Please replace the three paragraphs accordingly on both contact and partner page.
 
-### (contact_us.blade.html)
+### (contact_us.blade.html) (partner.blade.html)
 
 ```html
 <p>We reply to all messages <span class="bl-visible-on-ipad-only"><br></span> within 12 hours.</p>
