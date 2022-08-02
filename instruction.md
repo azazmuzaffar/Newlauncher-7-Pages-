@@ -136,6 +136,22 @@ To be the only platform of choice for new launches.
 
 # That's All, Thank you!
 
+## 5) Why gap is coming on left and right side.
+![image](https://user-images.githubusercontent.com/64412852/182407047-db6c6bd0-d442-40dc-84d2-ae1030557ef1.png)
+
+### please change the width from 960px to 100% (style.css) (~6710)
+
+```css
+@media only screen and (max-width: 1200px) {
+  .as-featured-area.container {
+    /* max-width: 960px; */
+    max-width: 100%;
+  }
+}
+```
+
+
+
 
 
 
