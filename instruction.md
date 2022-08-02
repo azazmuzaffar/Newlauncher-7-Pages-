@@ -8,7 +8,7 @@
 
 ## Solution: 
 
-(style.css) (6784 line)
+### (style.css) (6784 line)
 
 Please remove the <b> display: block; </b> and add <b> width: fit-content; </b> to the media query.
 
@@ -32,7 +32,7 @@ Please remove the <b> display: block; </b> and add <b> width: fit-content; </b> 
 
 ## Solution: 
 
-(about_us.blade.html) (~135 line)
+### (about_us.blade.html) (~135 line)
 
 Add/replace the highlighted class to the third/last element only, currently it's in loop/dynamic so can't do it on my own, but please figure this out.
 Note: you just need to add the class, it will work work on it's own b/w 768px to 992px resolution.
