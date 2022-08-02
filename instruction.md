@@ -70,7 +70,7 @@ Please replace the three paragraphs accordingly on both contact and partner page
 ### (about_us.blade.html)
 
 ```html
-<p>And by 2023, we will be adding 30 more developers, bringing 99.9% <span class="bl-visible-on-ipad-only"><br></span> of available launches to our portal.</p>
+ <p class="fs-18">And by 2023, we will be adding 30 more developers, bringing <span class="bl-visible-on-ipad-only"><br></span> 99.9% of available launches to our portal.</p>
 ```
 
 ### Add the CSS code in (style.css) 
