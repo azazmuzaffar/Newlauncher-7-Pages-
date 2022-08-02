@@ -96,5 +96,45 @@ Please replace the three paragraphs accordingly on both contact and partner page
 
 ```
 
+## 4) Making text bigger on some place on about page...
+
+### please find the following text on about page and give then the following class.
+
+**********************************************
+
+At NEWLAUNCHER, we bridge buyers to developers.
+To date, we have partnered with 78 developers.
+And by 2023, we will be adding 30 more developers, bringing 99.9% of available launches to our portal.
+We are humbled & driven to serve you.
+At NEWLAUNCHER, we strive for excellence.
+We innovated NEWLAUNCHER, keeping you in mind.
+To be the only platform of choice for new launches. 
+
+**********************************************
+
+### Class
+
+```html
+ class="fs-18"
+```
+
+### Add CSS in style.css
+
+```css
+
+/* Fonts Size 18px for ipad - Start */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .fs-18{
+    font-size: 18px !important;
+  }
+}
+/* End - Fonts Size 18px for ipad */
+
+```
+
+# That's it, Thank you!
+
+
+
 
 
