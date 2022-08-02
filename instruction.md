@@ -25,3 +25,17 @@ Please remove the <b> display: block; </b> and add <b> width: fit-content; </b> 
 }
 
 ```
+
+## 1) Remove the third one b/w 768px to 992px resolution.
+
+![image](https://user-images.githubusercontent.com/64412852/182364505-207db9a9-7c42-47f7-a298-084657efdec3.png)
+
+## Solution: 
+
+Add/replace the highlighted class to the third/last element only, currently it's in loop/dynamic so can't do it on my own, but please figure this out.
+Note: you just need to add the class, it will work work on it's own b/w 768px to 992px resolution.
+
+![image](https://user-images.githubusercontent.com/64412852/182365417-d237d141-132d-421d-bd23-58d8a514c895.png)
+
+
+
