@@ -48,6 +48,8 @@ Note: you just need to add the class, it will work work on it's own b/w 768px to
 
 Please replace the three paragraphs accordingly.
 
+### (contact_us.blade.html)
+
 ```html
 <p>We reply to all messages <span class="bl-visible-on-ipad-only"><br></span> within 12 hours.</p>
 ```
@@ -60,6 +62,34 @@ Please replace the three paragraphs accordingly.
 <p>Possibly, the fastest <span class="bl-visible-on-ipad-only"><br></span> way to reach us.</p>
 ```
 
+### (about_us.blade.html)
+
+```html
+<p>And by 2023, we will be adding 30 more developers, bringing 99.9% <span class="bl-visible-on-ipad-only"><br></span> of available launches to our portal.</p>
+```
+
+### Add the CSS code in (style.css) 
+
+```css
+
+/* Visible on Ipad only - Start */
+.bl-visible-on-ipad-only{
+  display: none;
+}
+@media only screen and (max-width: 991px){
+  .bl-visible-on-ipad-only{
+    display: block;
+    display: unset;
+  }
+}
+@media only screen and (max-width: 768px){
+  .bl-visible-on-ipad-only{
+    display: none;
+  }
+}
+/* End - Visible on Ipad only */
+
+```
 
 
 
