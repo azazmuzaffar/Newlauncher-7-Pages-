@@ -102,12 +102,12 @@ Please replace the three paragraphs accordingly on both contact and partner page
 
 **********************************************
 
-At NEWLAUNCHER, we bridge buyers to developers.
-To date, we have partnered with 78 developers.
-And by 2023, we will be adding 30 more developers, bringing 99.9% of available launches to our portal.
-We are humbled & driven to serve you.
-At NEWLAUNCHER, we strive for excellence.
-We innovated NEWLAUNCHER, keeping you in mind.
+At NEWLAUNCHER, we bridge buyers to developers.<br>
+To date, we have partnered with 78 developers.<br>
+And by 2023, we will be adding 30 more developers, bringing 99.9% of available launches to our portal.<br>
+We are humbled & driven to serve you.<br>
+At NEWLAUNCHER, we strive for excellence.<br>
+We innovated NEWLAUNCHER, keeping you in mind.<br>
 To be the only platform of choice for new launches. 
 
 **********************************************
