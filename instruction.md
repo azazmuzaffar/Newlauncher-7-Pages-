@@ -44,6 +44,11 @@ Note: you just need to add the class, it will work work on it's own b/w 768px to
 
 ![image](https://user-images.githubusercontent.com/64412852/182370236-f6f1e682-2581-4be8-a3a4-e9c109afa16a.png)
 
+<hr>
+
+![image](https://user-images.githubusercontent.com/64412852/182395735-f8109d8b-b3ec-4e55-b4dc-1ed4d9770030.png)
+
+
 ## Solution: 
 
 Please replace the three paragraphs accordingly.
