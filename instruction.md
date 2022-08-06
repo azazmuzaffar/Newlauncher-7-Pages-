@@ -153,9 +153,9 @@ To be the only platform of choice for new launches.
 ## 6) Contact us form fields are not aligned properly in these screen size...
 ![Screenshot_2](https://user-images.githubusercontent.com/64412852/183235695-73faf2f9-b693-463e-a00c-eaded06444c1.png)
 
-(style.css)
+### (style.css)
 
-Change the max-width from 767.98px to 991px, as below...
+#### Change the max-width from 767.98px to 991px, as below...
 
 ![image](https://user-images.githubusercontent.com/64412852/183235900-03efb8d1-e5de-426d-8527-12602692ae40.png)
  
